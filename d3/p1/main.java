@@ -1,4 +1,4 @@
-package d3;
+package d3.p1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,7 +9,7 @@ public class main {
     public static void main(String[] args) {
 
         // System.out.println("hello");
-        String filePath = "d3/input";
+        String filePath = "d3/p1/input";
 
 
         try(BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
