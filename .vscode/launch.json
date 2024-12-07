@@ -8,6 +8,13 @@
             "type": "java",
             "name": "main",
             "request": "launch",
+            "mainClass": "d4.p2.main",
+            "projectName": "aoc_d13556d7"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
             "mainClass": "d4.p1.main",
             "projectName": "aoc_d13556d7"
         },

@@ -1,4 +1,4 @@
-package d4.p1;
+package d4.p2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -53,6 +53,14 @@ public class main {
 
                 return true;
             }
+        }
+
+        if(as >= bs && as <= be || ae >= bs && ae <= be) {
+            return true;
+        }
+
+        if(bs >= as && bs <= ae || be >= as && be <= ae) {
+            return true;
         }
 
         return false;
